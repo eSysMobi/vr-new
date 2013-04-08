@@ -1,0 +1,34 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/black"
+    tools:context=".CameraActivity" >
+
+    <RelativeLayout 
+		android:id="@+id/scontainer"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        
+        >
+        
+        
+    </RelativeLayout>
+
+
+    <Button
+        android:id="@+id/ca_safari"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/iconblue"
+        android:onClick="OnSafari" />
+
+    <com.darvds.ribbonmenu.RibbonMenuView
+        android:id="@+id/ribbonMenu"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+    </com.darvds.ribbonmenu.RibbonMenuView>
+
+</RelativeLayout>
